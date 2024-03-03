@@ -5,8 +5,9 @@ import streamlit as st
 st.subheader("Bible Bot")
 
 # Using provided API key and project ID
-api_key = "ApiKey-e3821753-cdf9-48f8-b836-7f0dded7ea20"
+api_key = "sn9zkSxyWwc6Kb5Tz1wV4wziOrZv-1sQNjAYL8TtSfWZ"
 project_id = "d5737ca5-0ca5-4b92-a391-a2a0281154bf"
+
 
 # Function to get IBM Watson credentials
 def get_credentials():
