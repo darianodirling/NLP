@@ -89,7 +89,7 @@ except Exception as e:
 
 # Streamlit UI for interaction with the bot
 try:
-    st.title('Ask the NLP Bot')
+    st.title('Ask Bible Bot')
 
     if 'messages' not in st.session_state:
         st.session_state.messages = []
