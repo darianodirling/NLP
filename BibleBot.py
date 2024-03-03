@@ -6,12 +6,12 @@ wait = 0
 
 
 
-st.subheader("Enter Your Credentials")
-#api_key = st.text_input("Enter API Key:")
-#project_id = st.text_input("Enter Project ID:")
+st.subheader("Bible Bot")
+api_key = st.text_input("Enter API Key:")
+project_id = st.text_input("Enter Project ID:")
 
-api_key = "ApiKey-e3821753-cdf9-48f8-b836-7f0dded7ea20"
-project_id = "d5737ca5-0ca5-4b92-a391-a2a0281154bf"
+##api_key = "ApiKey-e3821753-cdf9-48f8-b836-7f0dded7ea20"
+#project_id = "d5737ca5-0ca5-4b92-a391-a2a0281154bf"
 
 
 def get_credentials():
